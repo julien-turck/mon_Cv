@@ -79,3 +79,8 @@ main{
 #acote{
     flex-basis: 33%;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
