@@ -54,30 +54,35 @@ header{
     flex-direction: row;
     font-style: italic;
     background-color: #2c1d27;
+    padding: 10px;
 }
 address{
     flex-basis: 33.33%;
 }
 
 #competences{
-    background-color: white;
     color: black;
-    flex-basis: 67%;
+    flex-basis: 66%;
+    padding: 0px 10px;
 }
 
 h3{
     background-color: #dbc2a4;
     color: black;
+    padding-left: 10px;
 }
 
 main{
+    background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 #acote{
-    flex-basis: 33%;
+    background-color: #782221;
+    flex-basis: 30%;
+    padding-right: 10px;
 }
 
 footer{
