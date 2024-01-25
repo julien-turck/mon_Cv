@@ -44,9 +44,19 @@ body{
     color: white;
 }
 
+header{
+    display:flex;
+    flex-direction: column;
+}
+
 #coordonnees{
+    display:flex;
+    flex-direction: row;
     font-style: italic;
     background-color: #2c1d27;
+}
+address{
+    flex-basis: 33%;
 }
 
 #competences{
