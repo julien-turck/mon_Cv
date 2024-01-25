@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: "Raleway";
-    src: url(../polices/Raleway-VariableFont_wght.woff);
     src: url(../polices/Raleway-Italic-VariableFont_wght.woff);
-    src: url(../polices/Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url(../polices/Raleway-VariableFont_wght.woff);
     src: url(../polices/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(../polices/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
 p{
@@ -13,6 +13,10 @@ p{
 }
 
 ul{
+    font-family: "Raleway", sans-serif;
+}
+
+address{
     font-family: "Raleway", sans-serif;
 }
 
@@ -30,4 +34,15 @@ h3{
 
 h4{
     font-family: "Lato", sans-serif;
+}
+
+nav{
+    font-style: italic;
+    background-color: #2c1d27;
+    color: white
+}
+
+#flex-col{
+    display:flex;
+    flex-direction: row;
 }
