@@ -37,6 +37,9 @@ h4{
 }
 
 body{
+    width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #782221;
     color: white;
 }
