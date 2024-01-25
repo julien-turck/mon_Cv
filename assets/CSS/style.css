@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: "Raleway";
-    src: url(../polices/Raleway-VariableFont_wght.woff);
     src: url(../polices/Raleway-Italic-VariableFont_wght.woff);
-    src: url(../polices/Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url(../polices/Raleway-VariableFont_wght.woff);
     src: url(../polices/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(../polices/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
 p{
@@ -13,6 +13,10 @@ p{
 }
 
 ul{
+    font-family: "Raleway", sans-serif;
+}
+
+address{
     font-family: "Raleway", sans-serif;
 }
 
@@ -30,4 +34,24 @@ h3{
 
 h4{
     font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: #782221;
+    color: white;
+}
+
+#coordonnees{
+    font-style: italic;
+    background-color: #2c1d27;
+}
+
+#competences{
+    background-color: white;
+    color: black;
+}
+
+h3{
+    background-color: #dbc2a4;
+    color: black;
 }
