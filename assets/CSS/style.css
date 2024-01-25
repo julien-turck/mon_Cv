@@ -37,21 +37,50 @@ h4{
 }
 
 body{
+    width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #782221;
     color: white;
 }
 
+header{
+    display:flex;
+    flex-direction: column;
+}
+
 #coordonnees{
+    display:flex;
+    flex-direction: row;
     font-style: italic;
     background-color: #2c1d27;
+}
+address{
+    flex-basis: 33.33%;
 }
 
 #competences{
     background-color: white;
     color: black;
+    flex-basis: 67%;
 }
 
 h3{
     background-color: #dbc2a4;
     color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#acote{
+    flex-basis: 33%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
 }
