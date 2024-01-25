@@ -56,15 +56,26 @@ header{
     background-color: #2c1d27;
 }
 address{
-    flex-basis: 33%;
+    flex-basis: 33.33%;
 }
 
 #competences{
     background-color: white;
     color: black;
+    flex-basis: 67%;
 }
 
 h3{
     background-color: #dbc2a4;
     color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#acote{
+    flex-basis: 33%;
 }
