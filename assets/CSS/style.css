@@ -68,6 +68,10 @@ address{
     width: 33.33%;
 }
 
+address:hover{
+    text-decoration:underline;
+}
+
 #competences{
     color: black;
     box-sizing: border-box;
