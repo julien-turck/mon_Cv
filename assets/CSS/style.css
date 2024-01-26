@@ -50,6 +50,7 @@ header{
     display:flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 #coordonnees{
@@ -57,7 +58,9 @@ header{
     flex-direction: row;
     font-style: italic;
     background-color: #2c1d27;
-    padding: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
     align-items: center;
 }
 address{
@@ -115,7 +118,6 @@ footer{
 figure{
     width: 150px;
     height: 150px;
-    text-align: center;
 }
 
 img{
