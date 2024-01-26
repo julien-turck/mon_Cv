@@ -150,6 +150,10 @@ img{
     border-radius: 10%;
 }
 
+img:hover{
+    opacity:0.5;
+}
+
 #bandeau_reseaux_sociaux{
     display: flex;
     flex-direction: row;
