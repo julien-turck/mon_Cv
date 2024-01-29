@@ -162,3 +162,7 @@ figure{
     display: flex;
     flex-direction: row;
 }
+
+article:hover{
+    border-right:0.5rem solid #782221
+}
