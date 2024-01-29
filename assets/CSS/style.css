@@ -53,6 +53,10 @@ header{
     align-items: center;
 }
 
+#photo_identite:hover{
+    cursor: zoom-in;
+}
+
 #coordonnees{
     display:flex;
     flex-direction: row;
@@ -72,6 +76,12 @@ address:hover{
     text-decoration:underline;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 #competences{
     color: black;
     box-sizing: border-box;
@@ -83,12 +93,6 @@ h3{
     background-color: #dbc2a4;
     color: black;
     padding-left: 10px;
-}
-
-main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 #acote{
@@ -131,10 +135,6 @@ footer{
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 30px white;
-}
-
-#photo_identite:hover{
-    cursor: zoom-in;
 }
 
 a{
