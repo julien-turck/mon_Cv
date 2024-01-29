@@ -8,16 +8,8 @@
     src: url(../polices/Raleway-VariableFont_wght.ttf) format('truetype');
 }
 
-p{
+*{
     font-family: "Raleway", sans-serif; 
-}
-
-ul{
-    font-family: "Raleway", sans-serif;
-}
-
-address{
-    font-family: "Raleway", sans-serif;
 }
 
 h1,h2,h3,h4{
