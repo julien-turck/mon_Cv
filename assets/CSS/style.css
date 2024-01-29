@@ -53,6 +53,19 @@ header{
     align-items: center;
 }
 
+#figure_photo{
+    width: 150px;
+    height: 150px;
+}
+
+#photo_identite{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px white;
+}
+
 #photo_identite:hover{
     cursor: zoom-in;
 }
@@ -76,10 +89,40 @@ address:hover{
     text-decoration:underline;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
+
+#adresse{
+    text-align: left;
+}
+
+#telephone{
+    text-align: right;
+}
+
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+article:hover{
+    border-right:0.5rem solid #782221
+}
+
+#acote{
+    background-color: #782221;
+    box-sizing: border-box;
+    width: 34%;
+    padding-right: 20px;
+}
+
+#apropos{
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 40px;
 }
 
 #competences{
@@ -95,13 +138,6 @@ h3{
     padding-left: 10px;
 }
 
-#acote{
-    background-color: #782221;
-    box-sizing: border-box;
-    width: 34%;
-    padding-right: 20px;
-}
-
 footer{
     background-color: #782221;
     display: flex;
@@ -110,36 +146,9 @@ footer{
     justify-content: center;
 }
 
-#adresse{
-    text-align: left;
-}
-
-#telephone{
-    text-align: right;
-}
-
-#apropos{
-    padding-left: 10px;
-    text-align: justify;
-    text-indent: 40px;
-}
-
-#figure_photo{
-    width: 150px;
-    height: 150px;
-}
-
-#photo_identite{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 30px white;
-}
-
-a{
-    color:white;
-    text-decoration: none;
+#bandeau_reseaux_sociaux{
+    display: flex;
+    flex-direction: row;
 }
 
 figure{
@@ -156,13 +165,4 @@ figure{
 
 #social:hover{
     opacity:0.5;
-}
-
-#bandeau_reseaux_sociaux{
-    display: flex;
-    flex-direction: row;
-}
-
-article:hover{
-    border-right:0.5rem solid #782221
 }
